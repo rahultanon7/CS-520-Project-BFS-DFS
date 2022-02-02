@@ -8,3 +8,9 @@ Run the class App.java to input parameters source vertices start and target, and
 CompareSearchAlgorithm.java randomly selects 40 randomly selected source/ target vertices and runs BFS and DFS on them.
 
 AppTest.java runs the test cases on the DFS and BFS algorithm for specific graphs
+
+Usage:
+
+mvn clean install to build the package
+
+ 
