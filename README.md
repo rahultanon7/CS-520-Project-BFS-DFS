@@ -13,4 +13,5 @@ Usage:
 
 mvn clean install to build the package
 
+While running for DFS algorithm sometimes the algorithm may incur StackOverflow error as well, the reason being that the edges are very high in number between various vertices and hence it may cause the algorithm to loop continously for example maximum edges maybe 100000 (10000 vertices and 10 edges for each vertex) which is huge and may cause the StackOverFlow error, please run it again to get proper results.
  
