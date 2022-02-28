@@ -1,2 +1,4 @@
+com/graph/app/DFS.class
+com/graph/app/BFS.class
 com/graph/utility/CompareSearchAlgorithm.class
 com/graph/app/App.class
