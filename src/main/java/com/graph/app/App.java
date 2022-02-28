@@ -27,7 +27,7 @@ public class App {
         adjacencyList = new ArrayList<>(vertices);
         for (int i = 1; i <= vertices; i++)
             adjacencyList.add(new ArrayList<>());
-        for (int i = 1; i <= vertices; i++) {
+        for (int i = 1; i < vertices; i++) {
             int max = 10;
             int min = 1;
             int range = max - min + 1;
@@ -152,6 +152,7 @@ public class App {
     }
 
     public static void main(String[] args) {
+
         App randomGraph = new App(); // creates an instance of random graph
         randomGraph.createGraph();
         System.out.println("The generated random graph :");
